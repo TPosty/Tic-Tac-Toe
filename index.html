@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles.css" />
+        <title>Tic-Tac-Toe</title>
+    </head>
+    <body>
+        <!-- Start page -->
+        <div class="setup_page">
+            <h1 class="setup_header">Tic-Tac-Toe</h1>
+
+            <div class="setup_inputs">
+                <div>
+                    <label for="player_one">Player one name</label>
+                    <input
+                        name="player_one"
+                        type="text"
+                        class="player_one_name"
+                    />
+                </div>
+
+                <div>
+                    <label for="player_two">Player two name</label>
+                    <input
+                        name="player_two"
+                        type="text"
+                        class="player_two_name"
+                    />
+                </div>
+
+                <button class="start_game_button">Start Game</button>
+            </div>
+        </div>
+
+        <!-- Scoreboard, Board container, and more -->
+        <div class="main_container">
+            <div class="main_header">
+                <h1 class="setup_header">Tic-Tac-Toe</h1>
+            </div>
+            <div class="board_container"></div>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>
