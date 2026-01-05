@@ -13,7 +13,7 @@
 
             <div class="setup_inputs">
                 <div>
-                    <label for="player_one">Player one name</label>
+                    <label for="player_one">Player-one name</label>
                     <input
                         name="player_one"
                         type="text"
@@ -22,7 +22,7 @@
                 </div>
 
                 <div>
-                    <label for="player_two">Player two name</label>
+                    <label for="player_two">Player-two name</label>
                     <input
                         name="player_two"
                         type="text"
@@ -38,8 +38,18 @@
         <div class="main_container">
             <div class="main_header">
                 <h1 class="setup_header">Tic-Tac-Toe</h1>
+                <p class="current_player_name"></p>
+                <p class="error_message"></p>
             </div>
             <div class="board_container"></div>
+            <div class="score_container">
+                <div class="scores">
+                    <p class="player_one_score"></p>
+                    <p class="player_two_score"></p>
+                </div>
+
+                <button class="game_reset_button">Reset Game</button>
+            </div>
         </div>
     </body>
     <script src="main.js"></script>
